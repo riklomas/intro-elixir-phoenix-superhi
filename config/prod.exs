@@ -14,9 +14,9 @@ use Mix.Config
 config :slick, Slick.Endpoint,
   http: [port: {:system, "PORT"}],
   #https: [port: {:system, "PORT"}],
-  url: [host: "https://elixir-app-dev.herokuapp.com", port: 80],
+  url: [host: "elixir-app-dev.herokuapp.com", port: 433],
   cache_static_manifest: "priv/static/manifest.json",
-  check_origin: ["https://elixir-app*.herokuapp.com"]
+  check_origin: ["https://elixir-app-dev.herokuapp.com"]
 
 # Do not print debug messages in production
 config :logger, level: :info
